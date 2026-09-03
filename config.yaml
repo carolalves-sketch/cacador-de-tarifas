@@ -37,9 +37,9 @@ viagem:
   duracao_max: 20
 
 orcamento:
-  referencia: 1800       # R$ por trecho. E um marcador, nao um corte.
-  teto_absoluto: 2800    # acima disso so alerta com desconto >= desconto_excecao
-  chao_alerta: 1500      # abaixo disso alerta sempre, com qualquer score
+  referencia: 2800       # R$ por trecho. E um marcador, nao um corte.
+  teto_absoluto: 4200    # acima disso so alerta com desconto >= desconto_excecao
+  chao_alerta: 2300      # abaixo disso alerta sempre, com qualquer score
   desconto_excecao: 0.35 # desconto necessario para furar o teto
 
 score:
