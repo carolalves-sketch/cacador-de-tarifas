@@ -1,0 +1,124 @@
+# =============================================================
+#  CACADOR DE TARIFAS BR-EUROPA  ·  arquivo de configuracao
+# -------------------------------------------------------------
+#  Tudo que voce pode querer mudar esta aqui.
+#  Nao e preciso mexer em nenhum arquivo dentro de src/.
+#  Depois de editar, salve e faca commit: o proximo ciclo ja usa.
+# =============================================================
+
+origens:
+  # custo_deslocamento = quanto custa (R$) sair de Brasilia e chegar
+  # neste aeroporto, SOMENTE IDA (voo + traslado). Usado para saber
+  # se a passagem mais barata em outra cidade compensa de verdade.
+  - { codigo: BSB, nome: "Brasilia",       prioridade: 1, custo_deslocamento: 0 }
+  - { codigo: GRU, nome: "Sao Paulo",      prioridade: 2, custo_deslocamento: 450 }
+  - { codigo: GIG, nome: "Rio de Janeiro", prioridade: 3, custo_deslocamento: 400 }
+
+destinos:
+  - { codigo: AMS, nome: "Amsterda" }
+  - { codigo: CPH, nome: "Copenhague" }
+  - { codigo: FRA, nome: "Frankfurt" }
+  - { codigo: MUC, nome: "Munique" }
+  - { codigo: BER, nome: "Berlim" }
+  - { codigo: VIE, nome: "Viena" }
+
+viagem:
+  somente_ida: true            # <<< escopo atual. Troque para false
+                               #     quando quiser voltar a buscar ida e volta.
+  partida_de:  "2027-04-13"
+  partida_ate: "2027-04-23"
+  margem_fora_janela: 3        # dias antes/depois que a camada gratuita
+                               # tambem observa (custo zero)
+  passageiros: 1
+  classe: economica            # economica | premium | executiva | primeira
+
+  # Usados apenas quando somente_ida = false
+  duracao_min: 7
+  duracao_max: 20
+
+orcamento:
+  referencia: 1800       # R$ por trecho. E um marcador, nao um corte.
+  teto_absoluto: 2800    # acima disso so alerta com desconto >= desconto_excecao
+  chao_alerta: 1500      # abaixo disso alerta sempre, com qualquer score
+  desconto_excecao: 0.35 # desconto necessario para furar o teto
+
+score:
+  # Pesos (a soma precisa dar 100)
+  peso_preco: 60
+  peso_escalas: 12
+  peso_duracao: 10
+  peso_horarios: 8
+  peso_bagagem: 5
+  peso_itinerario: 5
+
+alertas:
+  score_minimo: 75
+  desconto_minimo: 0.12        # 12% abaixo do preco normal da rota
+  score_minimo_chao: 60        # qualidade minima mesmo quando o preco e baixissimo
+  # Quando o historico ainda e curto, o sistema fica mais exigente:
+  score_minimo_confianca_baixa: 85
+  desconto_minimo_confianca_baixa: 0.20
+
+  queda_para_reenviar: 0.08    # 8%
+  queda_minima_reais: 150
+  subida_score_para_reenviar: 8
+  lembrete_dias: 7             # 0 desliga o lembrete
+  maximo_por_dia: 4
+  intervalo_por_rota_horas: 6
+  canal: telegram
+
+  # Erro de tarifa: preco abaixo desta fracao do percentil 10 historico
+  fator_erro_tarifa: 0.55
+
+preferencias:
+  max_escalas: 2
+  bagagem_obrigatoria: false
+  hora_partida_min: "06:00"
+  hora_chegada_max: "23:00"
+  conexao_min_minutos: 90
+  conexao_max_horas: 6
+  # Companhias tratadas como "tradicionais" no criterio de itinerario
+  companhias_tradicionais:
+    - TAP Air Portugal
+    - LATAM
+    - KLM
+    - Air France
+    - Lufthansa
+    - Iberia
+    - British Airways
+    - Swiss
+    - Austrian
+    - Turkish Airlines
+    - Emirates
+    - Qatar Airways
+    - Ethiopian Airlines
+    - Azul
+    - Gol
+    - United
+    - American Airlines
+    - Delta
+    - ITA Airways
+    - SAS
+
+frequencia:
+  fuso: "America/Sao_Paulo"
+  datas_por_rodada_grade: 4    # quantas datas confirmar em cada rodada paga
+  zoom_por_dia: 1              # buscas reservadas para candidatos urgentes
+
+cota:
+  limite_mensal: 250           # cota do plano gratuito do SerpApi
+  parar_em: 245                # trava de seguranca (nunca gera cobranca)
+  reserva_zoom: 20             # quantas buscas do mes ficam guardadas p/ zoom
+  reserva_comparativo: 4       # comparativo semanal ida-e-volta
+
+comparativo_ida_volta:
+  ativo: true                  # 1 busca por semana, so para referencia
+  dia_semana: 6                # 0=segunda ... 6=domingo
+
+historico:
+  janela_dias: 60              # periodo considerado no calculo do normal
+  minimo_observacoes: 5        # abaixo disso a confianca e considerada baixa
+
+rotas_alternativas:
+  ativo: false                 # bilhetes separados - ver secao 10 da proposta
+  economia_minima: 600
