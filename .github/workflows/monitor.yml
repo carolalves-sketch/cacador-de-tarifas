@@ -1,0 +1,102 @@
+name: Cacador de Tarifas
+
+# Os horarios do cron sao em UTC. Brasilia = UTC-3.
+on:
+  schedule:
+    - cron: "0 9 * * *"    # 06:00 Brasilia - varredura gratuita
+    - cron: "0 11 * * *"   # 08:00 Brasilia - grade paga (4 datas)
+    - cron: "0 16 * * *"   # 13:00 Brasilia - varredura gratuita
+    - cron: "0 17 * * *"   # 14:00 Brasilia - zoom no melhor candidato
+    - cron: "0 23 * * *"   # 20:00 Brasilia - varredura gratuita
+    - cron: "0 0 * * *"    # 21:00 Brasilia - grade paga (3 datas)
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: "O que rodar agora"
+        required: true
+        default: varredura
+        type: choice
+        options: [varredura, grade, zoom, comparativo, painel, tudo]
+      datas:
+        description: "Quantas datas confirmar (somente no modo grade)"
+        required: false
+        default: "4"
+
+# Uma rodada por vez: evita duas execucoes gravando o historico juntas.
+concurrency:
+  group: cacador
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  rodada:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Decidir o modo desta rodada
+        id: decidir
+        run: |
+          case "${{ github.event.schedule }}" in
+            "0 9 * * *"|"0 16 * * *"|"0 23 * * *") MODO=varredura; DATAS=0 ;;
+            "0 11 * * *")                          MODO=grade;     DATAS=4 ;;
+            "0 0 * * *")                           MODO=grade;     DATAS=3 ;;
+            "0 17 * * *")                          MODO=zoom;      DATAS=0 ;;
+            *)  MODO="${{ github.event.inputs.modo || 'varredura' }}"
+                DATAS="${{ github.event.inputs.datas || '4' }}" ;;
+          esac
+          echo "modo=$MODO"   >> "$GITHUB_OUTPUT"
+          echo "datas=$DATAS" >> "$GITHUB_OUTPUT"
+          echo "Rodando no modo: $MODO"
+
+      - name: Executar o monitor
+        env:
+          SERPAPI_KEY:        ${{ secrets.SERPAPI_KEY }}
+          TRAVELPAYOUTS_TOKEN: ${{ secrets.TRAVELPAYOUTS_TOKEN }}
+          TELEGRAM_TOKEN:     ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ "${{ steps.decidir.outputs.datas }}" != "0" ]; then
+            python -m src.run --modo "${{ steps.decidir.outputs.modo }}" \
+                              --datas "${{ steps.decidir.outputs.datas }}"
+          else
+            python -m src.run --modo "${{ steps.decidir.outputs.modo }}"
+          fi
+
+      - name: Guardar historico e painel
+        run: |
+          git config user.name  "cacador-de-tarifas"
+          git config user.email "actions@users.noreply.github.com"
+          git add data docs logs
+          if git diff --staged --quiet; then
+            echo "Nada mudou nesta rodada."
+          else
+            git commit -m "rodada ${{ steps.decidir.outputs.modo }} $(date -u +'%Y-%m-%d %H:%M UTC')"
+            # Outra rodada pode ter gravado enquanto esta corria.
+            for tentativa in 1 2 3; do
+              git pull --rebase --autostash && git push && break
+              echo "Nova tentativa de envio ($tentativa)..."
+              sleep 5
+            done
+          fi
+
+      - name: Guardar o log como anexo da execucao
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: log-${{ github.run_id }}
+          path: logs/
+          retention-days: 14
+          if-no-files-found: ignore
