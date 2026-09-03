@@ -1,0 +1,22 @@
+2026-09-03 12:41:18,852  INFO    cacador  === Rodada 'varredura' em 03/09/2026 09:41 ===
+2026-09-03 12:41:18,949  INFO    cacador  Varredura BSB-AMS: 0 ofertas na janela.
+2026-09-03 12:41:18,976  INFO    cacador  Varredura BSB-CPH: 0 ofertas na janela.
+2026-09-03 12:41:19,023  INFO    cacador  Varredura BSB-FRA: 0 ofertas na janela.
+2026-09-03 12:41:19,075  INFO    cacador  Varredura BSB-MUC: 0 ofertas na janela.
+2026-09-03 12:41:19,143  INFO    cacador  Varredura BSB-BER: 0 ofertas na janela.
+2026-09-03 12:41:19,212  INFO    cacador  Varredura BSB-VIE: 0 ofertas na janela.
+2026-09-03 12:41:19,260  INFO    cacador  Varredura GRU-AMS: 0 ofertas na janela.
+2026-09-03 12:41:19,306  INFO    cacador  Varredura GRU-CPH: 0 ofertas na janela.
+2026-09-03 12:41:19,332  INFO    cacador  Varredura GRU-FRA: 0 ofertas na janela.
+2026-09-03 12:41:19,386  INFO    cacador  Varredura GRU-MUC: 0 ofertas na janela.
+2026-09-03 12:41:19,434  INFO    cacador  Varredura GRU-BER: 0 ofertas na janela.
+2026-09-03 12:41:19,484  INFO    cacador  Varredura GRU-VIE: 0 ofertas na janela.
+2026-09-03 12:41:19,535  INFO    cacador  Varredura GIG-AMS: 0 ofertas na janela.
+2026-09-03 12:41:19,585  INFO    cacador  Varredura GIG-CPH: 0 ofertas na janela.
+2026-09-03 12:41:19,612  INFO    cacador  Varredura GIG-FRA: 0 ofertas na janela.
+2026-09-03 12:41:19,640  INFO    cacador  Varredura GIG-MUC: 0 ofertas na janela.
+2026-09-03 12:41:19,666  INFO    cacador  Varredura GIG-BER: 0 ofertas na janela.
+2026-09-03 12:41:19,744  INFO    cacador  Varredura GIG-VIE: 0 ofertas na janela.
+2026-09-03 12:41:19,744  INFO    cacador  Varredura concluida: 0 ofertas gravadas.
+2026-09-03 12:41:19,747  INFO    src.dashboard  Painel gerado em /home/runner/work/cacador-de-tarifas/cacador-de-tarifas/docs/index.html
+2026-09-03 12:41:19,747  INFO    cacador  === Fim da rodada. Historico com 0 ofertas. ===
