@@ -1,7 +1,7 @@
 {
   "mes_cota": "2026-09",
-  "consumo_cota": 0,
-  "indice_grade": 0,
-  "ultimo_comparativo": "",
+  "consumo_cota": 5,
+  "indice_grade": 4,
+  "ultimo_comparativo": "2026-09-03",
   "ultimo_aviso_falha": ""
 }
