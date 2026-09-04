@@ -84,3 +84,14 @@
 2026-09-04 00:34:51,861  INFO    cacador  Varredura concluida: 0 ofertas gravadas.
 2026-09-04 00:34:51,869  INFO    src.dashboard  Painel gerado em /home/runner/work/cacador-de-tarifas/cacador-de-tarifas/docs/index.html
 2026-09-04 00:34:51,869  INFO    cacador  === Fim da rodada. Historico com 102 ofertas. ===
+2026-09-04 02:28:00,721  INFO    cacador  === Rodada 'grade' em 03/09/2026 23:28 ===
+2026-09-04 02:28:06,019  INFO    cacador  Cota: 7/250 buscas usadas neste mes.
+2026-09-04 02:28:06,020  INFO    cacador  Grade 2027-04-17: 11 ofertas · faixa tipica do Google None
+2026-09-04 02:28:11,418  INFO    cacador  Cota: 8/250 buscas usadas neste mes.
+2026-09-04 02:28:11,419  INFO    cacador  Grade 2027-04-18: 16 ofertas · faixa tipica do Google None
+2026-09-04 02:28:16,068  INFO    cacador  Cota: 9/250 buscas usadas neste mes.
+2026-09-04 02:28:16,069  INFO    cacador  Grade 2027-04-19: 16 ofertas · faixa tipica do Google None
+2026-09-04 02:28:19,003  INFO    cacador  ALERTA enviado: GRU-AMS 2027-04-18 R$3435 score 80 (oportunidade dentro dos criterios)
+2026-09-04 02:28:19,003  INFO    cacador  Alertas enviados nesta rodada: 1
+2026-09-04 02:28:19,012  INFO    src.dashboard  Painel gerado em /home/runner/work/cacador-de-tarifas/cacador-de-tarifas/docs/index.html
+2026-09-04 02:28:19,013  INFO    cacador  === Fim da rodada. Historico com 145 ofertas. ===
