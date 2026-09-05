@@ -213,3 +213,20 @@
 2026-09-05 12:28:53,646  INFO    cacador  Varredura concluida: 0 ofertas gravadas.
 2026-09-05 12:28:53,658  INFO    src.dashboard  Painel gerado em /home/runner/work/cacador-de-tarifas/cacador-de-tarifas/docs/index.html
 2026-09-05 12:28:53,658  INFO    cacador  === Fim da rodada. Historico com 283 ofertas. ===
+2026-09-05 13:36:43,098  INFO    cacador  === Rodada 'grade' em 05/09/2026 10:36 ===
+2026-09-05 13:36:53,295  INFO    cacador  Cota: 19/250 buscas usadas neste mes.
+2026-09-05 13:36:53,296  INFO    cacador  Grade 2027-04-16: 14 ofertas · faixa tipica do Google None
+2026-09-05 13:36:57,948  INFO    cacador  Cota: 20/250 buscas usadas neste mes.
+2026-09-05 13:36:57,949  INFO    cacador  Grade 2027-04-17: 11 ofertas · faixa tipica do Google None
+2026-09-05 13:37:07,065  INFO    cacador  Cota: 21/250 buscas usadas neste mes.
+2026-09-05 13:37:07,066  INFO    cacador  Grade 2027-04-18: 14 ofertas · faixa tipica do Google None
+2026-09-05 13:37:11,716  INFO    cacador  Cota: 22/250 buscas usadas neste mes.
+2026-09-05 13:37:11,717  INFO    cacador  Grade 2027-04-19: 17 ofertas · faixa tipica do Google None
+2026-09-05 13:37:22,400  INFO    cacador  Cota: 23/250 buscas usadas neste mes.
+2026-09-05 13:37:22,401  INFO    cacador  Comparativo ida e volta (2027-04-18 → 2027-04-25): a partir de R$ 4388
+2026-09-05 13:37:23,015  INFO    cacador  ALERTA enviado: GRU-AMS 2027-04-18 R$2941 score 78 (oportunidade dentro dos criterios)
+2026-09-05 13:37:23,612  INFO    cacador  ALERTA enviado: GRU-FRA 2027-04-18 R$3325 score 77 (oportunidade dentro dos criterios)
+2026-09-05 13:37:24,230  INFO    cacador  ALERTA enviado: GRU-MUC 2027-04-18 R$3325 score 76 (oportunidade dentro dos criterios)
+2026-09-05 13:37:24,231  INFO    cacador  Alertas enviados nesta rodada: 3
+2026-09-05 13:37:24,243  INFO    src.dashboard  Painel gerado em /home/runner/work/cacador-de-tarifas/cacador-de-tarifas/docs/index.html
+2026-09-05 13:37:24,243  INFO    cacador  === Fim da rodada. Historico com 353 ofertas. ===

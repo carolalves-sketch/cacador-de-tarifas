@@ -1,2 +1,5 @@
 enviado_em,chave,id_oferta,origem,destino,data_partida,preco,score,motivo
 2026-09-03T23:28:19-03:00,GRU|AMS|2027-04-18|Air Europa,7c2f7b17fa24,GRU,AMS,2027-04-18,3435.0,79.8,oportunidade dentro dos criterios
+2026-09-05T10:37:23-03:00,GRU|AMS|2027-04-18|United,841de97db4b7,GRU,AMS,2027-04-18,2941.0,78.5,oportunidade dentro dos criterios
+2026-09-05T10:37:23-03:00,GRU|FRA|2027-04-18|Air Europa,5acefc48a67a,GRU,FRA,2027-04-18,3325.0,77.4,oportunidade dentro dos criterios
+2026-09-05T10:37:24-03:00,GRU|MUC|2027-04-18|Air Europa,cac71579581b,GRU,MUC,2027-04-18,3325.0,75.8,oportunidade dentro dos criterios
