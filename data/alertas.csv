@@ -3,3 +3,5 @@ enviado_em,chave,id_oferta,origem,destino,data_partida,preco,score,motivo
 2026-09-05T10:37:23-03:00,GRU|AMS|2027-04-18|United,841de97db4b7,GRU,AMS,2027-04-18,2941.0,78.5,oportunidade dentro dos criterios
 2026-09-05T10:37:23-03:00,GRU|FRA|2027-04-18|Air Europa,5acefc48a67a,GRU,FRA,2027-04-18,3325.0,77.4,oportunidade dentro dos criterios
 2026-09-05T10:37:24-03:00,GRU|MUC|2027-04-18|Air Europa,cac71579581b,GRU,MUC,2027-04-18,3325.0,75.8,oportunidade dentro dos criterios
+2026-09-11T23:40:16-03:00,GIG|AMS|2027-04-18|Tap Air Portugal,ebb951d44e88,GIG,AMS,2027-04-18,3781.0,94.5,score excelente
+2026-09-11T23:40:17-03:00,GRU|AMS|2027-04-18|Air Europa,7c2f7b17fa24,GRU,AMS,2027-04-18,3426.0,82.1,lembrete: continua disponivel ha 7 dias
