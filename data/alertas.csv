@@ -9,3 +9,5 @@ enviado_em,chave,id_oferta,origem,destino,data_partida,preco,score,motivo
 2026-09-13T11:45:05-03:00,GRU|AMS|2027-04-18|United,841de97db4b7,GRU,AMS,2027-04-18,2678.0,80.3,queda de R$ 263 (9%) desde o ultimo alerta
 2026-09-13T11:45:06-03:00,GRU|MUC|2027-04-18|Air Europa,cac71579581b,GRU,MUC,2027-04-18,3304.0,76.6,lembrete: continua disponivel ha 7 dias
 2026-09-19T11:03:31-03:00,GRU|AMS|2027-04-18|Air Europa,7c2f7b17fa24,GRU,AMS,2027-04-18,3453.0,81.7,lembrete: continua disponivel ha 7 dias
+2026-09-21T13:43:32-03:00,GRU|FRA|2027-04-18|Air Europa,5acefc48a67a,GRU,FRA,2027-04-18,3345.0,84.1,lembrete: continua disponivel ha 7 dias
+2026-09-21T13:43:32-03:00,GRU|MUC|2027-04-18|Air Europa,cac71579581b,GRU,MUC,2027-04-18,3345.0,75.4,lembrete: continua disponivel ha 7 dias
