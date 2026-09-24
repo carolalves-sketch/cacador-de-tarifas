@@ -2062,3 +2062,25 @@
 2026-09-24 15:36:24,727  INFO    cacador  Alertas enviados nesta rodada: 0
 2026-09-24 15:36:24,758  INFO    src.dashboard  Painel gerado em /home/runner/work/cacador-de-tarifas/cacador-de-tarifas/docs/index.html
 2026-09-24 15:36:24,758  INFO    cacador  === Fim da rodada. Historico com 2778 ofertas. ===
+2026-09-24 19:31:16,031  INFO    cacador  === Rodada 'varredura' em 24/09/2026 16:31 ===
+2026-09-24 19:31:16,187  INFO    cacador  Varredura BSB-AMS: 0 ofertas na janela.
+2026-09-24 19:31:16,212  INFO    cacador  Varredura BSB-CPH: 0 ofertas na janela.
+2026-09-24 19:31:16,242  INFO    cacador  Varredura BSB-FRA: 0 ofertas na janela.
+2026-09-24 19:31:16,270  INFO    cacador  Varredura BSB-MUC: 0 ofertas na janela.
+2026-09-24 19:31:16,298  INFO    cacador  Varredura BSB-BER: 0 ofertas na janela.
+2026-09-24 19:31:16,324  INFO    cacador  Varredura BSB-VIE: 0 ofertas na janela.
+2026-09-24 19:31:16,351  INFO    cacador  Varredura GRU-AMS: 0 ofertas na janela.
+2026-09-24 19:31:16,379  INFO    cacador  Varredura GRU-CPH: 0 ofertas na janela.
+2026-09-24 19:31:16,447  INFO    cacador  Varredura GRU-FRA: 0 ofertas na janela.
+2026-09-24 19:31:16,493  INFO    cacador  Varredura GRU-MUC: 0 ofertas na janela.
+2026-09-24 19:31:16,519  INFO    cacador  Varredura GRU-BER: 0 ofertas na janela.
+2026-09-24 19:31:16,556  INFO    cacador  Varredura GRU-VIE: 0 ofertas na janela.
+2026-09-24 19:31:16,582  INFO    cacador  Varredura GIG-AMS: 0 ofertas na janela.
+2026-09-24 19:31:16,623  INFO    cacador  Varredura GIG-CPH: 0 ofertas na janela.
+2026-09-24 19:31:16,676  INFO    cacador  Varredura GIG-FRA: 0 ofertas na janela.
+2026-09-24 19:31:16,730  INFO    cacador  Varredura GIG-MUC: 0 ofertas na janela.
+2026-09-24 19:31:16,756  INFO    cacador  Varredura GIG-BER: 0 ofertas na janela.
+2026-09-24 19:31:16,783  INFO    cacador  Varredura GIG-VIE: 0 ofertas na janela.
+2026-09-24 19:31:16,783  INFO    cacador  Varredura concluida: 0 ofertas gravadas.
+2026-09-24 19:31:16,839  INFO    src.dashboard  Painel gerado em /home/runner/work/cacador-de-tarifas/cacador-de-tarifas/docs/index.html
+2026-09-24 19:31:16,840  INFO    cacador  === Fim da rodada. Historico com 2778 ofertas. ===
