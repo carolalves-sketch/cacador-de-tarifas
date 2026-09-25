@@ -2144,3 +2144,17 @@
 2026-09-25 14:28:25,921  INFO    cacador  Varredura concluida: 0 ofertas gravadas.
 2026-09-25 14:28:25,945  INFO    src.dashboard  Painel gerado em /home/runner/work/cacador-de-tarifas/cacador-de-tarifas/docs/index.html
 2026-09-25 14:28:25,945  INFO    cacador  === Fim da rodada. Historico com 2839 ofertas. ===
+2026-09-25 15:41:07,554  INFO    cacador  === Rodada 'grade' em 25/09/2026 12:41 ===
+2026-09-25 15:41:13,908  INFO    cacador  Cota: 199/250 buscas usadas neste mes.
+2026-09-25 15:41:13,909  INFO    cacador  Grade 2027-04-13: 12 ofertas · faixa tipica do Google None
+2026-09-25 15:41:20,393  INFO    cacador  Cota: 200/250 buscas usadas neste mes.
+2026-09-25 15:41:20,394  INFO    cacador  Grade 2027-04-14: 16 ofertas · faixa tipica do Google None
+2026-09-25 15:41:29,727  INFO    cacador  Cota: 201/250 buscas usadas neste mes.
+2026-09-25 15:41:29,728  INFO    cacador  Grade 2027-04-15: 12 ofertas · faixa tipica do Google None
+2026-09-25 15:41:35,931  INFO    cacador  Cota: 202/250 buscas usadas neste mes.
+2026-09-25 15:41:35,932  INFO    cacador  Grade 2027-04-16: 10 ofertas · faixa tipica do Google None
+2026-09-25 15:41:49,664  INFO    cacador  Cota: 203/250 buscas usadas neste mes.
+2026-09-25 15:41:49,665  INFO    cacador  Comparativo ida e volta (2027-04-18 → 2027-04-25): a partir de R$ 4937
+2026-09-25 15:41:49,686  INFO    cacador  Alertas enviados nesta rodada: 0
+2026-09-25 15:41:49,727  INFO    src.dashboard  Painel gerado em /home/runner/work/cacador-de-tarifas/cacador-de-tarifas/docs/index.html
+2026-09-25 15:41:49,727  INFO    cacador  === Fim da rodada. Historico com 2901 ofertas. ===
