@@ -11,3 +11,6 @@ enviado_em,chave,id_oferta,origem,destino,data_partida,preco,score,motivo
 2026-09-19T11:03:31-03:00,GRU|AMS|2027-04-18|Air Europa,7c2f7b17fa24,GRU,AMS,2027-04-18,3453.0,81.7,lembrete: continua disponivel ha 7 dias
 2026-09-21T13:43:32-03:00,GRU|FRA|2027-04-18|Air Europa,5acefc48a67a,GRU,FRA,2027-04-18,3345.0,84.1,lembrete: continua disponivel ha 7 dias
 2026-09-21T13:43:32-03:00,GRU|MUC|2027-04-18|Air Europa,cac71579581b,GRU,MUC,2027-04-18,3345.0,75.4,lembrete: continua disponivel ha 7 dias
+2026-09-26T00:02:52-03:00,GIG|AMS|2027-04-18|Tap Air Portugal,ebb951d44e88,GIG,AMS,2027-04-18,3826.0,85.5,lembrete: continua disponivel ha 7 dias
+2026-09-26T00:02:53-03:00,GRU|FRA|2027-04-18|Tap Air Portugal,44402e0aba5f,GRU,FRA,2027-04-18,3549.0,81.8,oportunidade dentro dos criterios
+2026-09-26T00:02:53-03:00,GRU|AMS|2027-04-18|United,841de97db4b7,GRU,AMS,2027-04-18,2956.0,78.7,lembrete: continua disponivel ha 7 dias
