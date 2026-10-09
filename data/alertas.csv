@@ -21,3 +21,6 @@ enviado_em,chave,id_oferta,origem,destino,data_partida,preco,score,motivo
 2026-10-06T01:21:41-03:00,GIG|FRA|2027-04-18|Tap Air Portugal,df84a8ed448d,GIG,FRA,2027-04-18,3264.0,91.2,score subiu de 83 para 91
 2026-10-06T01:21:42-03:00,GRU|FRA|2027-04-18|Air Europa,5acefc48a67a,GRU,FRA,2027-04-18,3377.0,84.7,lembrete: continua disponivel ha 7 dias
 2026-10-06T01:21:42-03:00,GRU|AMS|2027-04-18|United,841de97db4b7,GRU,AMS,2027-04-18,2850.0,79.4,lembrete: continua disponivel ha 7 dias
+2026-10-09T01:06:48-03:00,GIG|MUC|2027-04-18|Tap Air Portugal,20f13fb07006,GIG,MUC,2027-04-18,3684.0,86.9,oportunidade dentro dos criterios
+2026-10-09T01:06:49-03:00,GIG|AMS|2027-04-17|Tap Air Portugal,47dfa30e8568,GIG,AMS,2027-04-17,3702.0,78.8,oportunidade dentro dos criterios
+2026-10-09T01:06:49-03:00,GRU|FRA|2027-04-18|United,e13c14a5fbdf,GRU,FRA,2027-04-18,3300.0,75.3,oportunidade dentro dos criterios
