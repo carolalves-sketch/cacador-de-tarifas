@@ -30,3 +30,5 @@ enviado_em,chave,id_oferta,origem,destino,data_partida,preco,score,motivo
 2026-10-13T14:52:08-03:00,GIG|FRA|2027-04-18|Tap Air Portugal,caae135e5a67,GIG,FRA,2027-04-18,3260.0,84.3,lembrete: continua disponivel ha 7 dias
 2026-10-13T14:52:09-03:00,GRU|FRA|2027-04-18|Air Europa,5acefc48a67a,GRU,FRA,2027-04-18,3376.0,83.4,lembrete: continua disponivel ha 7 dias
 2026-10-13T14:52:10-03:00,GRU|AMS|2027-04-18|United,841de97db4b7,GRU,AMS,2027-04-18,3221.0,75.5,lembrete: continua disponivel ha 7 dias
+2026-10-15T12:25:12-03:00,GRU|VIE|2027-04-21|United,6dbf5d1cfce1,GRU,VIE,2027-04-21,2655.0,84.3,queda de R$ 510 (16%) desde o ultimo alerta
+2026-10-15T12:25:12-03:00,GRU|AMS|2027-04-18|United,841de97db4b7,GRU,AMS,2027-04-18,2726.0,80.2,queda de R$ 495 (15%) desde o ultimo alerta
