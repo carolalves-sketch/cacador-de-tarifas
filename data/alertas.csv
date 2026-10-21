@@ -38,3 +38,6 @@ enviado_em,chave,id_oferta,origem,destino,data_partida,preco,score,motivo
 2026-10-18T11:13:10-03:00,GIG|AMS|2027-04-18|Tap Air Portugal,ebb951d44e88,GIG,AMS,2027-04-18,3753.0,90.9,mudou de BOA para EXCELENTE
 2026-10-18T11:13:10-03:00,GRU|AMS|2027-04-18|Air Europa,4f0bec5a0ae7,GRU,AMS,2027-04-18,3458.0,79.1,lembrete: continua disponivel ha 7 dias
 2026-10-19T23:59:55-03:00,GRU|FRA|2027-04-18|Tap Air Portugal,87ab3e5a6cb6,GRU,FRA,2027-04-18,3168.0,89.2,lembrete: continua disponivel ha 7 dias
+2026-10-21T12:45:42-03:00,GIG|AMS|2027-04-18|British Airways,632ea9104716,GIG,AMS,2027-04-18,4045.0,92.2,score excelente
+2026-10-21T12:45:42-03:00,GIG|FRA|2027-04-18|Tap Air Portugal,ce03752f85a6,GIG,FRA,2027-04-18,3277.0,91.1,mudou de BOA para EXCELENTE
+2026-10-21T12:45:43-03:00,GRU|FRA|2027-04-18|Air Europa,5acefc48a67a,GRU,FRA,2027-04-18,3313.0,84.1,lembrete: continua disponivel ha 7 dias
