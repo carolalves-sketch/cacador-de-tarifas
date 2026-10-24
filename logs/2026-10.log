@@ -2261,3 +2261,19 @@
 2026-10-24 13:09:56,485  INFO    cacador  Varredura concluida: 0 ofertas gravadas.
 2026-10-24 13:09:56,576  INFO    src.dashboard  Painel gerado em /home/runner/work/cacador-de-tarifas/cacador-de-tarifas/docs/index.html
 2026-10-24 13:09:56,576  INFO    cacador  === Fim da rodada. Historico com 6630 ofertas. ===
+2026-10-24 14:10:02,084  INFO    cacador  === Rodada 'grade' em 24/10/2026 11:10 ===
+2026-10-24 14:10:07,457  INFO    cacador  Cota: 206/250 buscas usadas neste mes.
+2026-10-24 14:10:07,458  INFO    cacador  Grade 2027-04-15: 16 ofertas · faixa tipica do Google None
+2026-10-24 14:10:11,401  INFO    cacador  Cota: 207/250 buscas usadas neste mes.
+2026-10-24 14:10:11,402  INFO    cacador  Grade 2027-04-16: 21 ofertas · faixa tipica do Google None
+2026-10-24 14:10:19,799  INFO    cacador  Cota: 208/250 buscas usadas neste mes.
+2026-10-24 14:10:19,800  INFO    cacador  Grade 2027-04-17: 18 ofertas · faixa tipica do Google None
+2026-10-24 14:10:30,230  INFO    cacador  Cota: 209/250 buscas usadas neste mes.
+2026-10-24 14:10:30,231  INFO    cacador  Grade 2027-04-18: 12 ofertas · faixa tipica do Google None
+2026-10-24 14:10:38,649  INFO    cacador  Cota: 210/250 buscas usadas neste mes.
+2026-10-24 14:10:38,651  INFO    cacador  Comparativo ida e volta (2027-04-18 → 2027-04-25): a partir de R$ 4861
+2026-10-24 14:10:39,236  INFO    cacador  ALERTA enviado: GRU-AMS 2027-04-18 R$3359 score 84 (oportunidade dentro dos criterios)
+2026-10-24 14:10:39,755  INFO    cacador  ALERTA enviado: GIG-AMS 2027-04-17 R$3721 score 79 (lembrete: continua disponivel ha 7 dias)
+2026-10-24 14:10:39,757  INFO    cacador  Alertas enviados nesta rodada: 2
+2026-10-24 14:10:39,840  INFO    src.dashboard  Painel gerado em /home/runner/work/cacador-de-tarifas/cacador-de-tarifas/docs/index.html
+2026-10-24 14:10:39,840  INFO    cacador  === Fim da rodada. Historico com 6710 ofertas. ===
