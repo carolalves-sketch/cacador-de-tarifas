@@ -2229,3 +2229,13 @@
 2026-10-24 01:17:10,553  INFO    cacador  Varredura concluida: 0 ofertas gravadas.
 2026-10-24 01:17:10,643  INFO    src.dashboard  Painel gerado em /home/runner/work/cacador-de-tarifas/cacador-de-tarifas/docs/index.html
 2026-10-24 01:17:10,644  INFO    cacador  === Fim da rodada. Historico com 6588 ofertas. ===
+2026-10-24 02:53:19,379  INFO    cacador  === Rodada 'grade' em 23/10/2026 23:53 ===
+2026-10-24 02:53:23,713  INFO    cacador  Cota: 203/250 buscas usadas neste mes.
+2026-10-24 02:53:23,715  INFO    cacador  Grade 2027-04-23: 19 ofertas · faixa tipica do Google None
+2026-10-24 02:53:28,316  INFO    cacador  Cota: 204/250 buscas usadas neste mes.
+2026-10-24 02:53:28,317  INFO    cacador  Grade 2027-04-13: 12 ofertas · faixa tipica do Google None
+2026-10-24 02:53:32,387  INFO    cacador  Cota: 205/250 buscas usadas neste mes.
+2026-10-24 02:53:32,388  INFO    cacador  Grade 2027-04-14: 11 ofertas · faixa tipica do Google None
+2026-10-24 02:53:32,422  INFO    cacador  Alertas enviados nesta rodada: 0
+2026-10-24 02:53:32,514  INFO    src.dashboard  Painel gerado em /home/runner/work/cacador-de-tarifas/cacador-de-tarifas/docs/index.html
+2026-10-24 02:53:32,514  INFO    cacador  === Fim da rodada. Historico com 6630 ofertas. ===
