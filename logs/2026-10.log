@@ -2684,3 +2684,8 @@
 2026-10-28 20:36:31,905  INFO    cacador  Varredura concluida: 1 ofertas gravadas.
 2026-10-28 20:36:31,964  INFO    src.dashboard  Painel gerado em /home/runner/work/cacador-de-tarifas/cacador-de-tarifas/docs/index.html
 2026-10-28 20:36:31,964  INFO    cacador  === Fim da rodada. Historico com 7243 ofertas. ===
+2026-10-28 21:29:47,657  INFO    cacador  === Rodada 'zoom' em 28/10/2026 18:29 ===
+2026-10-28 21:29:47,657  WARNING cacador  Sem cota para o zoom.
+2026-10-28 21:29:47,657  INFO    cacador  Alertas enviados nesta rodada: 0
+2026-10-28 21:29:47,759  INFO    src.dashboard  Painel gerado em /home/runner/work/cacador-de-tarifas/cacador-de-tarifas/docs/index.html
+2026-10-28 21:29:47,760  INFO    cacador  === Fim da rodada. Historico com 7243 ofertas. ===
